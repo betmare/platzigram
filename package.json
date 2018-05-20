@@ -1,0 +1,35 @@
+{
+  "name": "platzigram",
+  "version": "1.0.0",
+  "description": "Instagram de Estudiantes de Platzi",
+  "main": "server.js",
+  "dependencies": {
+    "empty-element": "^1.0.0",
+    "express": "^4.14.1",
+    "materialize-css": "^0.98.0",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-beta11",
+    "yo-yo": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "start gulp watch &&start node server.js"
+  },
+  "keywords": [
+    "platzi",
+    "javascript",
+    "platzigram"
+  ],
+  "author": "Platzi",
+  "license": "MIT"
+}
